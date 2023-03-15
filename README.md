@@ -7,7 +7,8 @@ Below synchronization problems are implemented using pthreads in c and c++
 - `DiningPhilosophers` <br>
 - `SleepingBarbers` <br>
 - `ReadersWriters` <br>
-- `Baboon(BridgeCrossing)`
+- `Baboon(BridgeCrossing)` <br>
+- `FuelingCar`
 
 ## Implemented by 
 - Koushik Akula (21114010)
