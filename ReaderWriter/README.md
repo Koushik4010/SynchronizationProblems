@@ -4,7 +4,7 @@ The readers and writers problem is a  synchronization problem where reading an d
 # Proposed solution (INTUITION)
 Here I allocate the shared resources to Reader or Writer based on First Come First Serve basis.If the resources are already been allocated to some one then we block the process .To maintain the order of the process in the waiting list we maintain a `Queue(FIFO-QUEUE)` .We have the constraint of mutual exclusion is that writer and reader cannot share the common resources simultaneously so as th handle this I used `“cs_mutex”` semaphore.
 ### **During reading:**
-When a resource is in the reader access we can allow other immediate reader to read the file simultaneously .I maintained the count `(“readcount”)` .I used a semaphore `“read_ct”` to allow a single reader to update the value of read_count for not to go in race condition(or to maintain mutual exclusion) . 
+When a resource is in the reader access we can allow other immediate reader to read the file simultaneously .I maintained the count `(“readerscount”)` .I used a semaphore `“read_ct”` to allow a single reader to update the value of read_count for not to go in race condition(or to maintain mutual exclusion) . 
 I used another semaphore `“execute”`  which a process in queue to execute in an order .The fist reader while entering takes the access of the shared resources for all . 
 ### **During Writing:**
 Here we are not allowed two or more writer to write in the same memory location because they are updating something In the shared resources, we handle this by using semaphore at write place.
