@@ -11,13 +11,13 @@ Below synchronization problems are implemented using pthreads in c and c++
 - `FuelingCar`
 
 ## Implemented by 
-- Koushik Akula (21114010)
-- Nenavath Suresh Kumar (21114066)
-- Ramavath Lalu (21114080)
-- Veera Siva (21114070)
-- Sapavath Yashwanth Krishna Naik (21114093)
-- Cheedu Praneeth Reddy (21114031)
-- Munugala Charan Tej (21114062)
-- Taddi Shyam Sundar (21114102)
-- Rongala Mrunalini (21114084)
-- Karlapudi Anil (21114048)
+- Koushik Akula (21114010)-Producer-Consumer(infinite buffer)
+- Nenavath Suresh Kumar (21114066)-Readers-Writers
+- Ramavath Lalu (21114080)-Producer-Consumer(bounded,cyclic)
+- Veera Siva (21114070)-DiningPhilosophers
+- Sapavath Yashwanth Krishna Naik (21114093)-SleepingBarbers
+- Cheedu Praneeth Reddy (21114031)-BridgeCrossing
+- Munugala Charan Tej (21114062)-Readers-Writers
+- Taddi Shyam Sundar (21114102)-FuelingCar
+- Rongala Mrunalini (21114084)-CigaretteSmokers
+- Karlapudi Anil (21114048)-DiningPhilosophers
