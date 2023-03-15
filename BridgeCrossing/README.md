@@ -11,5 +11,5 @@ An Array of 2 elements,`tourists_on_bridge`, representing tourists from each hil
 An array of semaphores,`sem`,representing two semaphores that regulate the flow of tourists onto the bridge.  
 **The Tourist:**  
 Every tourist is structured with an integer id, the hill he will be on and a unique thread he will produce.  
-**Other variables:**
+**Other variables:**. 
 An integer `tt` representing the total number of tourists that can be given as input.
